@@ -2,13 +2,14 @@
 
 import { useId, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function RestaurantCard({ name, location, image, isNew }) {
+export default function RestaurantCard({ name, location, image, isNew, slug }) {
   const [isLiked, setIsLiked] = useState(false);
   const gradientId = useId();
 
   return (
-    <div className="restaurantCard">
+    <Link href={`/restaurant/${slug}`} className="restaurantCard">
       <div className="restaurantCardImageWrapper">
         <Image
           className="restaurantCardImage"
@@ -26,7 +27,10 @@ export default function RestaurantCard({ name, location, image, isNew }) {
         </div>
         <button
           className="restaurantCardLike"
-          onClick={() => setIsLiked(!isLiked)}
+          onClick={(e) => {
+            e.preventDefault();
+            setIsLiked(!isLiked);
+          }}
           aria-label={isLiked ? "Retirer des favoris" : "Ajouter aux favoris"}
         >
           <svg
@@ -48,6 +52,6 @@ export default function RestaurantCard({ name, location, image, isNew }) {
           </svg>
         </button>
       </div>
-    </div>
+    </Link>
   );
 }
