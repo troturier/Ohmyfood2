@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { notFound } from "next/navigation";
 import { restaurants } from "@/data/restaurants.json";
 import RestaurantHeader from "@/components/RestaurantHeader/RestaurantHeader";
 import MenuItem from "@/components/MenuItem/MenuItem";
@@ -6,6 +7,10 @@ import MenuItem from "@/components/MenuItem/MenuItem";
 export default async function RestaurantPage({ params }) {
   const { slug } = await params;
   const restaurant = restaurants.find((r) => r.slug === slug);
+
+  if (!restaurant) {
+    notFound();
+  }
 
   let itemIndex = 0;
 
