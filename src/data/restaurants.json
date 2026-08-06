@@ -1,0 +1,106 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "La palette du goût",
+        "location": "Ménilmontant",
+        "slug": "la-palette-du-gout",
+        "image": "/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+        "isNew": true,
+        "menu": {
+          "entrées": [
+            { "nom": "Fricassée d'escargots", "description": "Au piment d'Espelette", "prix": "25€" },
+            { "nom": "Foie gras de canard mi-cuit", "description": "Et ses copeaux de truffe noire", "prix": "35€" },
+            { "nom": "Œuf au plat", "description": "Assaisonné à la truffe sur lit de caviar", "prix": "20€" }
+          ],
+          "plats": [
+            { "nom": "Filet de bœuf aux herbes", "description": "Accompagné de sa ribambelle de légumes", "prix": "40€" },
+            { "nom": "Parmentier de queue de bœuf", "description": "À la truffe noire sur sa purée de panais", "prix": "35€" },
+            { "nom": "Filet de turbot", "description": "Aux agrumes", "prix": "44€" }
+          ],
+          "desserts": [
+            { "nom": "Paris-Brest", "description": "Revisité", "prix": "18€" },
+            { "nom": "Macaron au chocolat d'exception", "description": "Et glace à la vanille de Madagascar", "prix": "22€" },
+            { "nom": "Mousse au chocolat", "description": "Au piment d'Espelette et à la truffe noire", "prix": "23€" }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Le délice des sens",
+        "location": "Folie-Méricourt",
+        "slug": "le-delice-des-sens",
+        "image": "/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg",
+        "isNew": true,
+        "menu": {
+          "entrées": [
+            { "nom": "Tartare de thon", "description": "Assaisonné au yuzu", "prix": "25€" },
+            { "nom": "Bouchée de homard croustillant", "description": "Et sa farandole de petits légumes", "prix": "35€" },
+            { "nom": "Velouté de cèpes", "description": "Aux truffes", "prix": "20€" }
+          ],
+          "plats": [
+            { "nom": "Poulet rôti aux herbes de Provence", "description": "Et sa crème de truffe", "prix": "40€" },
+            { "nom": "Langouste rôtie", "description": "Et ses légumes de saison", "prix": "35€" },
+            { "nom": "Côte de bœuf Angus", "description": "Et sa purée de panais", "prix": "44€" }
+          ],
+          "desserts": [
+            { "nom": "Farandole de desserts", "description": "Du chef", "prix": "18€" },
+            { "nom": "Crème brulée", "description": "Revisitée", "prix": "22€" },
+            { "nom": "Tiramisu", "description": "À la noisette", "prix": "23€" }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "La note enchantée",
+        "location": "Charonne",
+        "slug": "la-note-enchantee",
+        "image": "/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg",
+        "isNew": true,
+        "menu": {
+          "entrées": [
+            { "nom": "Ravioles de foie gras", "description": "Accompagnées de leur crème à la truffe", "prix": "25€" },
+            { "nom": "Caviar osciètre", "description": "Sur blini à la farine de blé noir", "prix": "35€" },
+            { "nom": "Homard et espuma de potiron", "description": "Marinés aux zestes d'orange", "prix": "20€" },
+            { "nom": "Foie gras de canard cuit entier", "description": "Confiture de figue et pain toasté", "prix": "35€" }
+          ],
+          "plats": [
+            { "nom": "Noix de coquilles Saint-Jacques", "description": "Sur lit de purée de céleri-rave", "prix": "40€" },
+            { "nom": "Langoustine poêlée", "description": "Purée de patate douce", "prix": "35€" },
+            { "nom": "Mijoté de queue de bœuf", "description": "Et riz sauvage aux zestes de citron", "prix": "44€" }
+          ],
+          "desserts": [
+            { "nom": "Macaron noisette et chocolat", "description": "Glace au caramel brun et sel de Guérande", "prix": "18€" },
+            { "nom": "Baba au rhum revisité", "description": "Avec son coulis de citron", "prix": "22€" },
+            { "nom": "Tarte au citron meringuée", "description": "Déstructurée", "prix": "23€" }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "À la française",
+        "location": "Cité Rouge",
+        "slug": "a-la-francaise",
+        "image": "/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg",
+        "isNew": false,
+        "menu": {
+          "entrées": [
+            { "nom": "Tartare de poulpe acidulé", "description": "Aux zestes d'orange", "prix": "25€" },
+            { "nom": "Velouté de légumes d'antan", "description": "Carotte, panais, topinambour", "prix": "35€" },
+            { "nom": "Soupe à l'oignon", "description": "Revisitée", "prix": "20€" }
+          ],
+          "plats": [
+            { "nom": "Coquilles Saint-Jacques", "description": "Accompagnées d'une purée de panais", "prix": "40€" },
+            { "nom": "Magret de canard", "description": "Et parmentier de pommes de terre", "prix": "35€" },
+            { "nom": "Pigeonneau d’Ille-et-Vilaine", "description": "Sur son lit de gnocchis aux légumes", "prix": "44€" }
+          ],
+          "desserts": [
+            { "nom": "Pétales de violettes glacés", "description": "Et purée de noisettes", "prix": "18€" },
+            { "nom": "Fondant au chocolat", "description": "Revisité", "prix": "22€" },
+            { "nom": "Millefeuille croustillant", "description": "Myrtilles et pâte d’amande", "prix": "23€" }
+          ]
+        }
+      }
+    ]
+  }
+  
